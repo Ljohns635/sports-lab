@@ -1,5 +1,7 @@
 import React from "react";
-
+import audiio from "../Team/audiio/applause2.wav";
+import audiio1 from "../Team/audiio/boooo.wav";
+import "./Team.css";
 class Team extends React.Component {
   state = {
     score: 0,
@@ -8,8 +10,8 @@ class Team extends React.Component {
   };
 
   shotsTaken = () => {
-    let audio = new Audio("./audiio/applause2.wav");
-    let othAudio = new Audio("./audiio/boooo.wav");
+    let audio = new Audio(audiio);
+    let othAudio = new Audio(audiio1);
     this.setState((state) => {
       return { shots: state.shots + 1 };
     });

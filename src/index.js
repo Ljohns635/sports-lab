@@ -1,3 +1,4 @@
+//recieved help from Tim La in getting my Photos and audio to play
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";

@@ -1,7 +1,6 @@
 import React from "react";
-import "./Game.css";
-import "./Team.css";
-import Game from "./component/Game";
+
+import Game from "./component/Game/Game";
 
 function App(props) {
   return (
