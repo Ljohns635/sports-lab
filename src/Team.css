@@ -1,0 +1,31 @@
+.otherdivers {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerOne {
+  text-decoration: underline;
+  text-shadow: 3px 3px 6px white;
+}
+
+button {
+  width: 50%;
+  /* border: ; */
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  /* background-color: ; */
+  /* color: ; */
+  /* transition: ; */
+}
+
+button:hover {
+  /* background-color: ;
+  columns: ; */
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headerOne {
+  font-family: "Graduate", cursive;
+}
